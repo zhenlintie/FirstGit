@@ -18,8 +18,8 @@ ___
      为了测试本地连接到远程仓库，直接下面的操作。
 
 ## 建立本地仓库，并连接到远程
-  1. 建立本地文件夹'FirstGit'
-  2. 创建README.md文件
+  1. 建立本地文件夹`FirstGit`，切到`FirstGit`目录下
+  2. 创建`README.md`文件
   3. git命令
 ``` shell
 $ git init  // 创建版本库
