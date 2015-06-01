@@ -2,10 +2,10 @@
 ___
 ## 创建SSH Key
   1. 打开终端，输入以下命令:
-``` shell
-$ ssh-keygen -t rsa -C "your@example.com" // 双引号内是github邮箱账户
-```
-  回车，直到完成。
+	``` shell
+	$ ssh-keygen -t rsa -C "your@example.com" // 双引号内是github邮箱账户
+	```
+	回车，直到完成。
   2. 切到用户名目录下，找到`.ssh`目录中的`id_rsa.pub`，这是公钥。**复制里面的内容**
   3. 登录[github](https://github.com),点击`Settings`图标,并切换到`SSH Keys`下。
      点击`Add SSH Key`，填写`title`，并将之前复制的`id_rsa.pub`内容复制到`key`，点击`Add Key`完成。
