@@ -2,7 +2,7 @@
 ___
 ## 创建SSH Key
   1. 打开终端，输入以下命令:<br>
-	``` shell
+	```
 	$ ssh-keygen -t rsa -C "your@example.com" // 双引号内是github邮箱账户
 	```
 	<br>回车，直到完成。
